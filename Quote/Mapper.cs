@@ -96,7 +96,7 @@ namespace Quote
 
             TourCalculatedQuote calculatedQuote = null;
 
-            if (tourQuotes.Count() > 0)
+            if (tourQuotes.Any())
             {
                 var baseSelectedQuote = tourQuotes.First();
                 var margin = .25;
